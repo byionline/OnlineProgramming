@@ -6,6 +6,7 @@ Input: String="araaci"
 Output: 3
 Explanation: The longest substring without any repeating characters is "aci".
 
+Hint: Sliding Window pattern
 
  */
 package NoRepeatSubstring;

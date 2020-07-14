@@ -9,7 +9,7 @@ Input: String="abbfcb", k=2
 Output: 5
 Explanation: Replace  'f' and 'c' with 'b' to have a longest repeating substring "bbbbb".
 
-
+Hint: Sliding Window pattern
 
 */
 package SubstringSameLetters;
