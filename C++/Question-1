@@ -1,0 +1,25 @@
+You are given three positive (i.e. strictly greater than zero) integers x, y and z.
+
+Your task is to find positive integers a, b and c such that x=max(a,b), y=max(a,c) 
+and z=max(b,c), or determine that it is impossible to find such a, b and c.
+
+You have to answer t independent test cases. Print required a, b and c in any (arbitrary) order.
+
+Input
+
+The first line of the input contains one integer t
+(1≤t≤2⋅104) — the number of test cases. Then t test cases follow.
+
+The only line of the test case contains three integers x, y, and z (1≤x,y,z≤109).
+
+
+
+Solution:
+
+Suppose X greater than equal to Y greater than equal Z.
+If Y is not equal to Z then answer is No.
+As Z is maximum of all the integers and appears in two pairs 
+IF there exists an answer then it will be X, X, Z
+
+
+Move to code : 1.cpp
